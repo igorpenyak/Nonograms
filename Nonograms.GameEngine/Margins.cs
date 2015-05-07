@@ -54,6 +54,8 @@ namespace Nonograms.GameEngine
 
         private static List<MarginCell> CreateMargin(int[] line)
         {
+            // Review remark from IP:
+            // думаю, не зовсім вдало використовувати настільки скорочені імена змінних ...
             int c = (int) line.GetValue(0);
             int k = 1;
             List<MarginCell> tempArr = new List<MarginCell>();
